@@ -5,8 +5,8 @@ Cat Dog AI Camera is an Android application that allows users to take pictures o
 <table>
   <tr>
     <td><img src="screenshots/snapshot.jpg" alt="inference result" width="300"/></td>
-    <td><img src="screenshots/snapshot.jpg" alt="inference result" width="300"/></td>
-    <td><img src="screenshots/snapshot.jpg" alt="inference result" width="300"/></td>
+    <td><img src="screenshots/s2.jpg" alt="inference result" width="300"/></td>
+    <td><img src="screenshots/s3.jpg" alt="inference result" width="300"/></td>
   </tr>
 </table>
 
