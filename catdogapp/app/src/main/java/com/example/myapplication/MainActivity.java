@@ -47,6 +47,8 @@ import okhttp3.Response;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static final String SERVER_ADDRESS = "http://192.168.50.144:3000/";
+
     Button captureButton;
     PreviewView previewView;
     ImageView overlay;
@@ -203,7 +205,7 @@ public class MainActivity extends AppCompatActivity {
         OkHttpClient client = new OkHttpClient();
 
         Request request = new Request.Builder()
-                .url("http://192.168.50.144:3000/")
+                .url(SERVER_ADDRESS)
                 .build();
 
 
@@ -238,7 +240,7 @@ public class MainActivity extends AppCompatActivity {
                 .build();
 
         Request request = new Request.Builder()
-                .url("http://192.168.50.144:3000/classify")
+                .url(SERVER_ADDRESS + "classify")
                 .post(mbody)
                 .build();
 
