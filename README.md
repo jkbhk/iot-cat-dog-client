@@ -1,12 +1,15 @@
 # Cat Dog AI camera
 
-Cat Dog AI Camera is an Android application that allows users to take pictures of cats or dogs and perform AI inference on them using a deep learning server. The app uses a custom deep learning model trained on a large dataset of cat and dog images to accurately classify the images
+Cat Dog AI Camera is an Android application that allows users to take pictures of cats or dogs and perform AI inference on them using a deep learning server. The app uses a custom deep learning model trained on a large dataset of cat and dog images to classify the images with reasonable precision.
+<br>
+<br>
+<strong>This project mostly serves to demonstrate the offloading of AI inference from an IoT device to the cloud. The client side application could certainly be rebuilt using other cross-platform frameworks like flutter. </strong>
 
 <table>
   <tr>
     <td><img src="screenshots/snapshot.jpg" alt="inference result" width="300"/></td>
-    <td><img src="screenshots/snapshot.jpg" alt="inference result" width="300"/></td>
-    <td><img src="screenshots/snapshot.jpg" alt="inference result" width="300"/></td>
+    <td><img src="screenshots/s2.jpg" alt="inference result" width="300"/></td>
+    <td><img src="screenshots/s3.jpg" alt="inference result" width="300"/></td>
   </tr>
 </table>
 
